@@ -1,0 +1,22 @@
+<div class="text-layout">
+    <h1>Pipes personalizados</h1>
+    <p>
+        Pipes creados por mi.
+    </p>
+</div>
+
+<div class="p-grid">
+    <div class="p-col-4">
+        <p-card header="Mi UPPERCASE"
+        subheader="con función de cambiar a minusculas o mayusculas">
+            {{'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde numquam cum ad adipisci in omnis rerum aperiam ut aspernatur voluptatum molestias quod neque magni odio eos, ducimus quis ullam porro.' | mayusculas:enMayuscula}}
+        <hr>
+            <button pButton label="Cambia" (click)="cambiaValor()"></button>
+        </p-card>
+    </div>
+</div>
+
+<span class="p-float-label">
+    <input id="float-input" type="text" pInputText> 
+    <label for="float-input">Username</label>
+</span>
