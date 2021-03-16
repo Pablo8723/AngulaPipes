@@ -15,7 +15,7 @@ import {InputTextModule} from 'primeng/inputtext';
     CardModule,
     FieldsetModule,
     MenubarModule,
-    // TableModule,
+    TableModule,
     ToolbarModule,
     InputTextModule
   ],
